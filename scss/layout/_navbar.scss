@@ -1,0 +1,18 @@
+nav {
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0 10px;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(247, 231, 212);
+            padding: 10px;
+            border-radius: 25px;
+
+            &:hover {
+                color: rgb(146, 146, 146);
+            }
+        }
+    }
+}

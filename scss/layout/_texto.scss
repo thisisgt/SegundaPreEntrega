@@ -1,0 +1,9 @@
+
+a {
+  text-decoration: double;
+  text-transform: initial;
+  font-weight: lighter;
+  color: map-get($color, black);
+  justify-content: space-between;
+  align-items: center;
+}

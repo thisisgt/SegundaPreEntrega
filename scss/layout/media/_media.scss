@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .encantado_blog_img {
+      width: 600px;
+    }
+    .encantado_blog_div p {
+      width: 80%;
+    }
+
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .encantado_blog_img {
+        width: 400px;
+        height: 400px;
+      }
+
+      .encantado_blog_div p {
+        width: 90%;
+        font-size: larger;
+        line-height: 30px;
+      }
+
+}
+
+@media screen and (max-width: 424px) {
+    .encantado_blog_img {
+        width: 400px;
+        height: 400px;
+      }
+
+      .encantado_blog_div p {
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+      }
+    nav ul li {
+      display: flex;
+      margin: 3px;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      font-size: small;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+}

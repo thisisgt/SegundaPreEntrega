@@ -1,0 +1,22 @@
+$color_1: rgb(16, 76, 87);
+$color_2: rgb(0, 0, 0);
+$background-color_1: bisque;
+
+.enviarFormulario {
+  background-color: $background-color_1;
+  color: $color_1;
+  border: none;
+  font-size: 1rem;
+}
+
+.conoceCulturas {
+  margin: auto;
+  display: flexbox; /* Debe ser "display: flex;" */
+  color: $color_2;
+  font-size: medium;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+  height: auto;
+}

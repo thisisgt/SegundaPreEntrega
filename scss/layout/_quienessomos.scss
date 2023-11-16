@@ -1,0 +1,43 @@
+.quienes_somos {
+    text-align: center;
+
+    h1 {
+        margin: 50px;
+        border-bottom: 2px solid white;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-family: $font-family_1; // Suponiendo que $font-family_1 está definida en otro lugar
+        margin: 50px;
+    }
+
+    p {
+        line-height: 35px;
+        width: 90%;
+        margin: 0 auto;
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            width: 70%;
+            margin: 0 auto;
+            font-size: larger;
+        }
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    @media screen and (min-width: 425px) and (max-width: 767px),
+    (max-width: 424px) {
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

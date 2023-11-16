@@ -1,0 +1,13 @@
+label {
+  display: flow-root;
+  font-weight: bolder;
+  font-size: medium;
+  color: map-get($color,black );
+}
+
+input {
+  display: block;
+  width: 40%;
+  font-size: 0.875rem;
+}
+
