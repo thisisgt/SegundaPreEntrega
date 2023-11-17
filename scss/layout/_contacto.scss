@@ -1,38 +1,40 @@
 .Contacto_div {
-    text-align: center;
+  text-align: center;
+}
+
+.Contacto_form input {
+  margin: 0 auto;
+  margin-top: 1%;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.Contacto_form label {
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+.H1_contacto {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.Contacto_article {
+  margin: 0 auto;
+}
+
+.Contacto_article img {
+  width: 300px;
+  margin-top: 2%;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.Contacto_article img:hover {
+  transform: scale(1.1); 
+}
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: block;
   }
-  
-  .Contacto_form {
-    input {
-      margin: 0 auto;
-      margin-top: 1%;
-      padding: 10px 10px;
-      border-radius: 10px;
-    }
-  
-    label {
-      margin: 0 auto;
-      margin-top: 1%;
-    }
-  }
-  
-  .H1_contacto {
-    text-align: center;
-    margin-top: 2%;
-  }
-  
-  .Contacto_article {
-    margin: 0 auto;
-  
-    img {
-      width: 300px;
-      margin-top: 2%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #menu-icon {
-      display: block;
-    }
-  }
-  
+}

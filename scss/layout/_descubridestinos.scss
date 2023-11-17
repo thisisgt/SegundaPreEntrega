@@ -1,38 +1,66 @@
+
 .descubri-destinos {
-    margin: 0 auto;
-    margin-top: 50px;
-    color: map-get($color, black);
-    font-weight: lighter;
-    text-transform: none;
-    text-align: center;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    flex-direction: column;
-    position: sticky;
-    max-width: 900px;
-    overflow: hidden;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0), 2px 2px 5px rgb(124, 124, 124);
-    text-align: center;
-  
-    div {
-      img {
-        width: 30%;
-        height: 40%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-  
-        &:hover {
-          transform: scale(1.5);
-        }
-      }
-  
-      width: 100%;
-      height: 75%;
-    }
+  margin: 0 auto;
+  margin-top: 50px;
+  color: black;
+  font-weight: lighter;
+  text-transform: none;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  flex-direction: column;
+  position: sticky;
+  max-width: 900px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0), 2px 2px 5px rgb(124, 124, 124);
+  text-align: center;
+}
+
+.descubri-destinos div img {
+  width: 30%;
+  height: 40%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.descubri-destinos div img:hover {
+  transform: scale(1.5);
+}
+
+.descubri-destinos div {
+  width: 100%;
+  height: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .descubri-destinos div img {
+    width: 30%;
+    height: 40%;
   }
-  
-  form {
-    margin: auto;
-    margin-top: 20px;
+
+  .descubri-destinos div {
+    height: 75%;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  .descubri-destinos div img {
+    width: 40%;
+    height: 50%;
+  }
+
+  .descubri-destinos div {
+    height: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .descubri-destinos div img {
+    width: 50%;
+    height: 60%;
+  }
+
+  .descubri-destinos div {
+    height: 50%;
+  }
+}
+

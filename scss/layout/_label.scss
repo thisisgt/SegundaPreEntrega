@@ -1,8 +1,14 @@
+form {
+  margin: auto;
+  margin-top: 20px;
+}
+
+
 label {
   display: flow-root;
   font-weight: bolder;
   font-size: medium;
-  color: map-get($color,black );
+  color:black;
 }
 
 input {

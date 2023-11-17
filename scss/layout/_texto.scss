@@ -1,9 +1,13 @@
-
+li{
+  &:hover{
+    transform: scale(1.2);
+  }
+}
 a {
   text-decoration: double;
   text-transform: initial;
   font-weight: lighter;
-  color: map-get($color, black);
+  color: black;
   justify-content: space-between;
   align-items: center;
 }

@@ -1,25 +1,25 @@
-// Definición de la animación
 @keyframes changeColor {
     0% {
         background-color: rgb(157, 184, 202);
         color: rgb(0, 0, 0);
     }
+
     100% {
-        background-color: rgb(74, 114, 119);
+        background-color: rgb(55, 83, 87);
         color: white;
     }
 }
 
-// Estilos del botón
 button {
+
     background-color: rgb(157, 184, 202);
     color: rgb(0, 0, 0);
     padding: 20px 10px;
     border: 2px dashed rgb(74, 114, 119);
     margin: 20px;
-    transition: background-color 0.3s, color 0.3s; /* Agregamos una transición suave */
+    transition: background-color 0.3s, color 0.3s;
 
     &:hover {
-        animation: changeColor 1s forwards; /* Aplicamos la animación al hacer hover */
+        animation: changeColor 1s forwards;
     }
 }

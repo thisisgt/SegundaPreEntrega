@@ -1,3 +1,25 @@
 body {
-    background-color:map-get($color:beige );
+  background-color: rgb(218, 218, 213);
+  animation-name: fondo-principal;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-duration: 6s;
+}
+
+@keyframes fondo-principal {
+  0% {
+    background-color: azure;
   }
+
+  10% {
+    background-color: rgb(232, 225, 225);
+  }
+
+  25% {
+    background-color: rgb(181, 188, 188);
+  }
+
+  50% {
+    background-color: rgb(134, 134, 134);
+  }
+}

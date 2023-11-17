@@ -1,13 +1,11 @@
 @import "reset";
-@import "./layout/header";
+@import "./layout/index";
 @import "fuentes";
 @import "./layout/body";
-@import "./layout/navbar";
 @import "./layout/descubridestinos";
 @import "./layout/label";
 @import "./layout/culturas";
 @import "button";
-@import "./layout/card";
 @import "./layout/contex";
 @import "./layout/blog";
 @import "./layout/media/media";
@@ -20,4 +18,4 @@
 @import "./utilities/mixins";
 @import "./utilities/maps";
 @import "./button";
-
+@import "./layout/404.scss";
