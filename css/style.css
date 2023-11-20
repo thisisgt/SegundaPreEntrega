@@ -302,11 +302,11 @@ grid-container {
 }
 
 p {
-  padding: 50px 0 50px 0;
+  padding: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   width: 50%;
   margin: 0 auto;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 h1 {
@@ -481,6 +481,12 @@ button:hover {
   animation: changeColor 1s forwards;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
+}
+
 .notFound {
   position: fixed;
   top: 0;
@@ -491,12 +497,27 @@ button:hover {
   z-index: -1;
 }
 
+.notFoundImg {
+  width: 100%;
+  height: 100%;
+}
+
 .error-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 106px;
-  font-family: "Catamaran", sans-serif;
+  font-size: 2em;
   font-weight: 800;
-  margin: 70px 15px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
